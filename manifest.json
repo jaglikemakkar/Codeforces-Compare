@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Codeforces Compare",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["https://codeforces.com/profile/*"],
+            "css": ["css/style.css"],
+            "js": [
+                "js/chart.min.js",
+                "js/jquery-3.6.0.min.js",
+                "js/fetchData.js",
+                "js/addData.js",
+                "js/addSelfData.js",
+                "js/index.js"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "img/img_128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage"],
+    "description": "Compare your codeforces stats."
+}

@@ -1,0 +1,77 @@
+.dataDiv {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dataTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+
+.dataTable td,
+.dataTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center !important;
+}
+
+.dataTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.dataTable tr:hover {
+    background-color: #ddd;
+}
+
+.dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.divHeading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outerDiv {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fullChart {
+    margin: auto;
+    height: auto !important;
+    width: 80% !important;
+}
+
+.innerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#pTags1, #pTags2 {
+    margin: auto;
+    height: auto !important;
+    width: 80% !important;
+}
+
+#allProblemsDiv{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.allProblemsInnerDiv{
+    height: 500px;
+    overflow-y: scroll;
+    width: 100%;
+}
