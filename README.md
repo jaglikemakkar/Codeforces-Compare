@@ -1,6 +1,6 @@
 # Codeforces-Compare
 
-Extension to analyze and compare your Codeforces your performance with others.
+Extension to analyze and compare your Codeforces performance with others.
 
 ### How to use?
 
