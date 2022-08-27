@@ -50,6 +50,21 @@ function getContestStats(data) {
             stat.rating = curr.newRating;
         }
     }
+
+    if (stat.maxRating === 0){
+        stat.rating = '-';
+        stat.maxUp = '-';
+        stat.maxDown = '-';
+        stat.maxUpCon = '';
+        stat.maxDownCon = '';
+        stat.best = '-';
+        stat.worst = '-';
+        stat.bestCon = '';
+        stat.worstCon = '';
+        stat.maxRating = '-';
+        stat.minRating = '-';
+        stat.total = data.result.length;
+    }
     return stat;
 }
 
